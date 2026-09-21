@@ -1,0 +1,16 @@
+2026-06-21 13:36:58,242 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-06-21 13:36:58,247 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 机器人的性能
+2026-06-21 13:37:02,139 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-06-21 13:37:02,141 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '扫地机器人性能指标和评估标准'}
+2026-06-21 13:37:14,912 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-06-21 13:37:16,199 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-06-21 13:37:16,203 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 扫地机器人的性能指标和评估标准主要包括清扫能力（如吸力大小、边刷与主刷设计）、导航与避障能力（如激光导航、视觉识别、障碍物规避精度）、电池续航时间、噪音水平、智能功能（如APP控制、自动回充、地图构建）以及尘盒容量和维护便捷性。
+2026-06-21 16:58:18,133 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-06-21 16:58:18,150 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 机器人功能
+2026-06-21 16:59:15,203 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-06-21 16:59:15,206 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 机器人功能
+2026-06-21 16:59:20,736 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-06-21 16:59:20,743 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '扫地机器人和扫拖一体机器人的核心功能有哪些'}
+2026-06-21 16:59:31,868 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-06-21 16:59:32,501 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-06-21 16:59:32,504 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 扫地机器人的核心功能是自动清扫地面灰尘和碎屑；扫拖一体机器人在扫地基础上增加了拖地功能，可同时完成清扫和湿拖。

@@ -1,0 +1,36 @@
+2026-06-20 12:21:05,515 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-06-20 12:21:05,614 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 给我生成我的使用报告
+2026-06-20 12:21:10,789 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：fill_context_for_report
+2026-06-20 12:21:10,790 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-06-20 12:21:10,791 - agent - INFO - middleware.py:24 - [tool monitor]工具fill_context_for_report调用成功
+2026-06-20 12:21:10,793 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-06-20 12:21:10,793 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | fill_context_for_report已调用
+2026-06-20 12:21:14,783 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_id
+2026-06-20 12:21:14,784 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-06-20 12:21:14,784 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_id调用成功
+2026-06-20 12:21:14,785 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-06-20 12:21:14,785 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | ["1001", "1002", "1003", "1004", "1005", "1006", "1007", "1008", "1009", "1010"]
+2026-06-20 12:21:21,009 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_current_month
+2026-06-20 12:21:21,010 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-06-20 12:21:21,012 - agent - INFO - middleware.py:24 - [tool monitor]工具get_current_month调用成功
+2026-06-20 12:21:21,015 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有7条消息。
+2026-06-20 12:21:21,015 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 2025-10
+2026-06-20 12:21:26,401 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：fetch_external_data
+2026-06-20 12:21:26,401 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'user_id': '1001', 'month': '2025-10'}
+2026-06-20 12:21:26,445 - agent - INFO - middleware.py:24 - [tool monitor]工具fetch_external_data调用成功
+2026-06-20 12:21:26,446 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有9条消息。
+2026-06-20 12:21:26,447 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | {"特征": "65㎡公寓 | 单身 | 木地板", "效率": "覆盖率:86%\\n日均清扫:46㎡\\n漏扫区域:沙发底部（高度不足）", "耗材": "主刷寿命:剩余40天\\nHEPA滤网:剩余20%", "对比": "优于68%同面积用户（清洁频率持续回升）"}
+2026-06-20 12:21:30,747 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-06-20 12:21:30,773 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '扫地机器人主刷和HEPA滤网保养建议'}
+2026-06-20 12:21:40,140 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-06-20 12:21:40,142 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有11条消息。
+2026-06-20 12:21:40,143 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 主刷保养建议：定期清理缠绕在主刷上的毛发和杂物，避免影响清扫效果；部分型号主刷可水洗，晾干后再装回。HEPA滤网保养建议：建议每2-3个月更换一次，若使用频繁或环境灰尘较多，应适当缩短更换周期；不可水洗，以免损坏过滤结构。
+2026-06-20 20:48:15,605 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-06-20 20:48:15,643 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 下雨天怎么保养机器人
+2026-06-20 20:48:20,466 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-06-20 20:48:20,487 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '下雨天 扫地机器人 保养'}
+2026-06-20 20:48:30,936 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-06-20 20:48:31,836 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-06-20 20:48:31,837 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 下雨天应避免使用扫地机器人，防止潮湿环境影响机器性能；若需使用，确保地面无明显积水，并在使用后及时清理尘盒、滤网及滚刷，保持机身干燥，以防电机受潮或滋生霉菌。
+2026-06-20 20:49:38,212 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-06-20 20:49:38,213 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 还有什么好的意见吗

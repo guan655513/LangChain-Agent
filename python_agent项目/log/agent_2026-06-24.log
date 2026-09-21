@@ -1,0 +1,70 @@
+2026-06-24 19:24:33,257 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-06-24 19:24:33,260 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 你好
+2026-06-24 19:25:29,846 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-06-24 19:25:29,848 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 你是什么机器人
+2026-06-24 19:27:24,581 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-06-24 19:27:24,582 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 扫地机器人有什么功能
+2026-06-24 19:27:34,660 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-06-24 19:27:34,662 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '扫地机器人和扫拖一体机器人功能介绍'}
+2026-06-24 19:27:51,737 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-06-24 19:27:52,049 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-06-24 19:27:52,050 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 参考资料中未提及扫地机器人和扫拖一体机器人的功能介绍。
+2026-06-24 19:28:04,689 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-06-24 19:28:04,691 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '扫地机器人清扫功能 扫拖一体机器人使用场景'}
+2026-06-24 19:28:18,287 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-06-24 19:28:18,748 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-06-24 19:28:18,750 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 提供的参考资料中未包含关于扫地机器人清扫功能和扫拖一体机器人使用场景的相关信息。
+2026-06-24 19:28:25,233 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-06-24 19:28:25,265 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '机器人清洁模式 吸力 拖地 自动回充 避障'}
+2026-06-24 19:28:28,094 - agent - ERROR - middleware.py:31 - 工具rag_summarize调用失败，原因：HTTPSConnectionPool(host='dashscope.aliyuncs.com', port=443): Max retries exceeded with url: /api/v1/services/embeddings/text-embedding/text-embedding (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))
+2026-06-24 19:28:56,223 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-06-24 19:28:56,224 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 你是什么机器人
+2026-06-24 19:29:31,841 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-06-24 19:29:31,842 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 主要有什么功能
+2026-06-24 19:29:44,034 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-06-24 19:29:44,035 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '扫地机器人扫拖一体机器人主要功能'}
+2026-06-24 19:29:56,220 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-06-24 19:29:56,523 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-06-24 19:29:56,524 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 参考资料中未提及扫地机器人扫拖一体机器人的主要功能。
+2026-06-24 19:30:22,584 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-06-24 19:30:22,584 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 在下雨天你能做什么
+2026-06-24 19:31:12,902 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-06-24 19:31:12,916 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 下雨天机器人能干什么
+2026-06-24 19:31:33,766 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-06-24 19:31:33,768 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '下雨天 扫地机器人 扫拖机器人 使用注意事项 湿度 潮湿'}
+2026-06-24 19:31:39,985 - agent - ERROR - middleware.py:31 - 工具rag_summarize调用失败，原因：('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2026-06-24 19:33:34,691 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-06-24 19:33:34,692 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 下雨天扫地机器人能做什么
+2026-06-24 19:33:42,811 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-06-24 19:33:42,812 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '下雨天扫地机器人使用建议'}
+2026-06-24 19:33:55,120 - agent - ERROR - middleware.py:31 - 工具rag_summarize调用失败，原因：('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2026-06-24 19:45:03,962 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-06-24 19:45:04,020 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 机器人雨天能做什么
+2026-06-24 19:50:32,510 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-06-24 19:50:32,573 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 扫地机器人能做什么
+2026-06-24 21:14:43,631 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-06-24 21:14:43,641 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 机器人雨天能做什么
+2026-06-24 21:15:00,549 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-06-24 21:15:00,583 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '雨天 扫地机器人 使用建议'}
+2026-06-24 21:15:05,995 - agent - ERROR - middleware.py:31 - 工具rag_summarize调用失败，原因：('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2026-06-24 21:23:57,895 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-06-24 21:23:57,948 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 机器人雨天做什么
+2026-06-24 21:24:14,002 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-06-24 21:24:14,026 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '雨天扫地机器人使用建议'}
+2026-06-24 21:24:24,478 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-06-24 21:24:25,029 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-06-24 21:24:25,029 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 雨天不建议使用扫地机器人，因潮湿环境可能导致设备短路或损坏，且湿滑地面影响其正常运行和清洁效果。
+2026-06-24 21:26:28,574 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-06-24 21:26:28,575 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 黑龙江省
+2026-06-24 21:26:33,973 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_weather
+2026-06-24 21:26:33,975 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'city': '黑龙江省'}
+2026-06-24 21:26:33,981 - agent - INFO - middleware.py:24 - [tool monitor]工具get_weather调用成功
+2026-06-24 21:26:34,550 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-06-24 21:26:34,551 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 城市黑龙江省天气为晴天，气温26摄氏度，空气湿度50%，南风1级，AQI21，最近6小时降雨概率极低
+2026-06-24 21:27:04,743 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-06-24 21:27:04,745 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 地面不干燥比较脏
+2026-06-24 21:27:12,764 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-06-24 21:27:12,766 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '地面潮湿脏污 扫拖一体机 清洁建议'}
+2026-06-24 21:27:20,118 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-06-24 21:27:20,785 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-06-24 21:27:20,786 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 扫拖一体机适用于地面潮湿脏污的清洁，建议先扫后拖，确保滚刷和拖布清洁无堵塞，定期清理污水箱并更换清水，以提升清洁效果。

@@ -1,0 +1,44 @@
+2026-06-22 13:31:54,272 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-06-22 13:31:54,276 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 你是什么机器人
+2026-06-22 13:32:18,192 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-06-22 13:32:18,192 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 阴雨天适合什么机器人
+2026-06-22 13:32:29,687 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-06-22 13:32:29,689 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '阴雨天 潮湿环境 扫地机器人 扫拖机器人 适合 使用建议'}
+2026-06-22 13:32:41,410 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-06-22 13:32:41,573 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-06-22 13:32:41,574 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 参考资料中未提供相关信息。
+2026-06-22 13:32:49,049 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-06-22 13:32:49,050 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '湿度大 潮湿 地面湿滑 扫地机器人 扫拖一体 使用注意事项 防护'}
+2026-06-22 13:33:03,099 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-06-22 13:33:03,304 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-06-22 13:33:03,305 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 未提供参考资料，无法生成相关总结。
+2026-06-22 13:33:08,261 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-06-22 13:33:08,262 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '扫拖一体机器人 扫地机器人 区别 功能 适用场景'}
+2026-06-22 13:33:23,213 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-06-22 13:33:23,700 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有7条消息。
+2026-06-22 13:33:23,703 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 提供的参考资料中未包含关于扫拖一体机器人与扫地机器人区别、功能及适用场景的相关信息。
+2026-06-22 13:33:31,999 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-06-22 13:33:32,000 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '阴雨天 潮湿 湿度 扫地机 拖地机 使用 建议 注意事项'}
+2026-06-22 13:33:37,222 - agent - ERROR - middleware.py:31 - 工具rag_summarize调用失败，原因：('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2026-06-22 13:34:27,082 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-06-22 13:34:27,083 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 阴雨天适合什么机器人
+2026-06-22 13:34:37,228 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-06-22 13:34:37,230 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '阴雨天 潮湿环境 适合 扫地机器人 扫拖机器人'}
+2026-06-22 13:34:56,894 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-06-22 13:34:57,344 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-06-22 13:34:57,347 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 参考资料中未提及阴雨天潮湿环境是否适合使用扫地机器人或扫拖机器人的相关信息。
+2026-06-22 13:35:01,798 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-06-22 13:35:01,799 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '扫拖一体机器人 湿拖 地面潮湿 清洁'}
+2026-06-22 13:35:15,475 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-06-22 13:35:15,859 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-06-22 13:35:15,860 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 参考资料中未提及关于扫拖一体机器人湿拖、地面潮湿及清洁的相关信息。
+2026-06-22 13:35:19,080 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-06-22 13:35:19,085 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '扫拖机器人 拖地功能 选购指南 适用场景'}
+2026-06-22 13:35:20,953 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-06-22 13:35:20,954 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 晴天适合什么
+2026-06-22 13:35:36,976 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-06-22 13:35:37,828 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-06-22 13:35:37,831 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '晴天 扫地机器人 扫拖模式 使用建议'}
+2026-06-22 13:35:52,988 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-06-22 13:35:53,346 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-06-22 13:35:53,348 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 参考资料中未提供关于晴天扫地机器人扫拖模式使用建议的相关信息。
